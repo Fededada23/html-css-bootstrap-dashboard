@@ -98,3 +98,7 @@ ul{
     width: 100%;
     background-color: whitesmoke;
 }
+
+img, svg{
+    width: 100%;
+}
