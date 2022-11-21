@@ -1,24 +1,100 @@
-img{
-    width: 40px;
+
+
+
+
+header{
+    height: 4rem;
 }
 
-.logo{
-    display: none;
+.white{
+    background-color: white;
 }
 
-.flex-start{
-    justify-content: flex-start;
+.top-bar-blue{
+    background-color: #1b72e8;
+    margin-top:16px;
+    width: 100%;
+    
+}
+
+.wrapper{
+    width: 100%;
+    height: calc(100vh - 4rem);
     display: flex;
+}
+.main{
+    width: calc(100vw - 4rem);
+    overflow-y: auto;
 }
 
 .aside{
-    background-color: blue;
-    min-height: 2000px;
     width: 150px;
+    height: calc(100vh - 4rem);
+    background-color: rgba(5, 30, 52, 225);
 }
 
-.main-contents{
+.header-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 100%;
+    list-style-type: none;
     
-    width: 1000px;
-    background-color: red;
+    
+}
+
+.display-inerith{
+    display:inherit;
+}
+
+.only-logo img{
+    width: 10%;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.nav-top .aside-icon{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside-icon i{
+    margin-right: 10px;
+    
+}
+
+ul{
+    list-style-type: none
+}
+
+.nav-bottom .aside-icon{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-col{
+    align-items: center;
+}
+
+.contets{
+    width: 100%;
+    background-color: whitesmoke;
 }
