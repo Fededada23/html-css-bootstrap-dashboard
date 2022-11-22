@@ -13,6 +13,7 @@ header{
 .logo img:first-child{
     width: auto;
     height: 3rem;
+    
 }
 
 
@@ -22,6 +23,10 @@ header{
 
 .white{
     background-color: white;
+}
+
+.transparent{
+    opacity: 1;
 }
 
 .top-bar-blue{
@@ -75,6 +80,10 @@ header{
     width: 50%;
 }
 
+.logo{
+    text-align: center;
+}
+
 nav{
     height: 100%;
     display: flex;
@@ -94,8 +103,18 @@ nav{
     
 }
 
+.aside li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 0;
+    
+}
+
 ul{
-    list-style-type: none
+    list-style-type: none;
+    padding-left: 1rem;
 }
 
 .nav-bottom .aside-icon{
